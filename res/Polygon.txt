@@ -1,0 +1,14 @@
+Window 720 1080
+Font res/SomeTimeLater.otf 18 255 255 255
+Font res/SomeTimeLater.otf 18 255 255 255
+Font res/SomeTimeLater.otf 18 255 255 255
+Font res/SomeTimeLater.otf 18 255 255 255
+Font res/SomeTimeLater.otf 18 255 255 255
+Font res/SomeTimeLater.otf 18 255 255 255
+Circle EmeraldCircle 1.4 2.7 80 0 120 255 75 30
+Circle RedTriangle 0.6 1.3 255 0 0 255 75 3
+Circle BlueSquare 2.3 1.9 0 255 0 200 45 4
+Circle GreenSeptagon 0.8 2.1 0 0 255 150 90 7
+Circle YellowDodecagon 0.5 4.5 255 0 255 200 50 12
+Circle PurpleHexagon 6.5 4.5 0 255 255 200 70 6
+Circle whh 10.0 15.0 71 72 73 255 69 100

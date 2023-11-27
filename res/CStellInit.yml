@@ -1,0 +1,15 @@
+CStell: "EditorResource"
+Resource:
+  - Attribute: "Texture"
+    Name: "DefaultSprite"
+    Path: "res/Texture/DefaultSprite.png"
+  - Attribute: "Texture"
+    Name: "GizmoAxisX"
+    Path: "res/Texture/2D_GizmoArrowX.png"
+  - Attribute: "Texture"
+    Name: "GizmoAxisY"
+    Path: "res/Texture/2D_GizmoArrowY.png"
+  - Attribute: "Font"
+    Name: "SomeTimeLater"
+    Path: "res/SomeTimeLater.otf"
+    

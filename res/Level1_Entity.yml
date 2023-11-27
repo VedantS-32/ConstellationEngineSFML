@@ -1,0 +1,113 @@
+CStell: "SceneEntity"
+Entity:
+  - Name: Player
+    Animation:
+    - Name: Player
+      Texture: Player
+      FrameCount: 1
+    - Name: PlayerIdle
+      Texture: PlayerIdle
+      FrameCount: 4
+    - Name: PlayerRun
+      Texture: PlayerRun
+      FrameCount: 6
+    - Name: PlayerJumping
+      Texture: PlayerJumping
+      FrameCount: 2
+    - Name: PlayerFalling
+      Texture: PlayerFalling
+      FrameCount: 2
+    - Name: PlayerDead
+      Texture: PlayerDead
+      FrameCount: 2
+    Input:
+    - Has: true
+    Transform:
+    - x: 100
+      y: 600
+      sx: 2
+      sy: 2
+      a: 0
+    BoundingBox:
+    - x: 64
+      y: 64
+      Dynamic: true
+    Gravity:
+    - g: 0
+    State:
+    - State: CanJump
+  - Name: Brick
+    Transform:
+    - x: 32
+      y: 672
+      sx: 2
+      sy: 2
+      a: 0
+    Sprite:
+    - Texture: Brick
+      ox: 16
+      oy: 16
+    BoundingBox:
+    - x: 64
+      y: 64
+      Dynamic: false
+  - Name: Brick
+    Transform:
+    - x: 352
+      y: 736
+      sx: 2
+      sy: 2
+      a: 0
+    Sprite:
+    - Texture: Brick
+      ox: 16
+      oy: 16
+    BoundingBox:
+    - x: 64
+      y: 64
+      Dynamic: false
+  - Name: Brick
+    Transform:
+    - x: 96
+      y: 736
+      sx: 2
+      sy: 2
+      a: 0
+    Sprite:
+    - Texture: Brick
+      ox: 16
+      oy: 16
+    BoundingBox:
+    - x: 64
+      y: 64
+      Dynamic: false
+  - Name: Brick
+    Transform:
+    - x: 160
+      y: 736
+      sx: 2
+      sy: 2
+      a: 0
+    Sprite:
+    - Texture: Brick
+      ox: 16
+      oy: 16
+    BoundingBox:
+    - x: 64
+      y: 64
+      Dynamic: false
+  - Name: Brick
+    Transform:
+    - x: 224
+      y: 736
+      sx: 2
+      sy: 2
+      a: 0
+    Sprite:
+    - Texture: Brick
+      ox: 16
+      oy: 16
+    BoundingBox:
+    - x: 64
+      y: 64
+      Dynamic: false

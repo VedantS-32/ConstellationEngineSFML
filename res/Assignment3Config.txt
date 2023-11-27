@@ -1,0 +1,3 @@
+Window 1280.0 720.0 74 0
+Font res/SomeTimeLater.otf 48 255 255 255
+Player 32 32 5 137 147 140 255 0 0 4 8

@@ -1,0 +1,11 @@
+Texture Player res/Texture/Player/player.png
+Texture PlayerRun res/Texture/Player/player_animRun.png
+Texture PlayerIdle res/Texture/Player/player_animIdle.png
+Texture PlayerJumping res/Texture/Player/player_animJumping.png
+Texture PlayerFalling res/Texture/Player/player_animFalling.png
+Texture PlayerDead res/Texture/Player/player_animDead.png
+Texture Brick res/Texture/Environment/block-big.png
+Texture DefaultSprite res/Texture/DefaultSprite.png
+Texture GizmoAxisX res/Texture/2D_GizmoArrowX.png
+Texture GizmoAxisY res/Texture/2D_GizmoArrowY.png
+Font SomeTimeLater res/SomeTimeLater.otf

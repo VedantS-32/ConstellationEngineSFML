@@ -1,0 +1,486 @@
+CStell: SceneEntity
+Entity:
+  - Name: Player
+    Animation:
+      - Name: Player
+        Texture: Player
+        FrameCount: 1
+      - Name: PlayerIdle
+        Texture: PlayerIdle
+        FrameCount: 4
+      - Name: PlayerRun
+        Texture: PlayerRun
+        FrameCount: 6
+      - Name: PlayerJumping
+        Texture: PlayerJumping
+        FrameCount: 2
+      - Name: PlayerFalling
+        Texture: PlayerFalling
+        FrameCount: 2
+      - Name: PlayerDead
+        Texture: PlayerDead
+        FrameCount: 2
+    Input:
+      - Has: true
+    Transform:
+      - x: 528
+        y: 608
+        sx: -2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: true
+    Gravity:
+      - g: 0
+    State:
+      - State: CanJump
+  - Name: Brick
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: Brick
+    Transform:
+      - x: 32
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+  - Name: Brick
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: Brick
+    Transform:
+      - x: 352
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+  - Name: Brick
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: Brick
+    Transform:
+      - x: 96
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+  - Name: Brick
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: Brick
+    Transform:
+      - x: 160
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+  - Name: Brick
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: Brick
+    Transform:
+      - x: 224
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 288
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 672
+        y: 672
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 608
+        y: 672
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 544
+        y: 672
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 480
+        y: 672
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 416
+        y: 672
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 416
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 864
+        y: 672
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 800
+        y: 672
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 736
+        y: 672
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 864
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 800
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 736
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 672
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 608
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 544
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 480
+        y: 736
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 32
+        y: 608
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
+  - Name: Entity
+    Sprite:
+      - ox: 16
+        oy: 16
+        Texture: DefaultSprite
+    Transform:
+      - x: 32
+        y: 672
+        sx: 2
+        sy: 2
+        a: 0
+    BoundingBox:
+      - x: 64
+        y: 64
+        hx: 32
+        hy: 32
+        Dynamic: false
+    State:
+      - State: CanJump
