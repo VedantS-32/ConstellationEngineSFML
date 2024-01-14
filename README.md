@@ -10,9 +10,9 @@ WARNING this project wasn't made with the focus of compatibity and protability, 
 - [Features](#features)
 - [CStell Editor](#cstell-editor)
 - [Drag and Drop](#drag-and-drop-entity)
-- [Operation at Runtime](#operation-at-runtime)
-- [Axis Aligned Bounding Box (AABB) Collision](#axis-aligned-bounding-box-(aabb)-collision)
-- [Saving the Scene](#saving-the-scene)
+- [Operation at Runtime](#Operation-at-Runtime)
+- [Axis Aligned Bounding Box (AABB) Collision](#Axis-Aligned-Bounding-Box-(AABB)-Collision)
+- [Saving the Scene](#Saving-the-Scene)
 - [External](#external)
 
 ### Features
